@@ -1,3 +1,5 @@
+![](docs/figma-to-range.png | width=300)
+
 # Figma Range Sync
 
 This script scans [Figma](https://figma.com/) for recently edited design files,
