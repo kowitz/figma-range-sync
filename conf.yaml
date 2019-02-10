@@ -1,0 +1,23 @@
+figma:
+  # Generate a Figma personal access token in Figma account settings:
+  accessToken: "ADD-YOUR-FIGMA-PERSONAL-ACCESS-TOKEN-HERE"
+  # Add the Figma Team ID you want to sync
+  # You can find it in the URL bar when you view a team in Figma
+  teamID: "ADD-YOUR-FIGMA-TEAM-ID-HERE"
+
+range:
+  # Create a Range custom integration webhook and add it here:
+  webhookURL: "ADD-YOUR-RANGE-WEBHOOK-HERE"
+
+# Add Figma Users that you would like to sync to Range
+# This is map of {full-name-in-figma : range-email-address}
+users:
+  "Ranger Rick": "rick@example.com"
+  "Fiona Figma": "fiona@example.com"
+
+# You shouldn't need to change these settings
+settings:
+  pollingIntervalMinutes: 10 # Run sync at this interval
+  initialImportHistoryMinutes: 20 # Minutes of activity to import on first sync
+  figmaRequestsPerSecond: 4 # Throttling requests to Figma
+  figmaTimeout: 3000 # Miliseconds
