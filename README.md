@@ -1,4 +1,4 @@
-![](docs/figma-to-range.png | width=300)
+![](docs/figma-to-range.png)
 
 # Figma Range Sync
 
