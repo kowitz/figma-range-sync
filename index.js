@@ -198,7 +198,8 @@ function createRangePayloads(entries) {
           provider_name: "Figma",
           html_url: "https://www.figma.com/file/" + entry.file.key,
           name: entry.file.name,
-          type: "LINK"
+          type: "DOCUMENT",
+          subtype: "FIGMA_DOCUMENT"
         }
       });
     });
