@@ -13,7 +13,7 @@
   "author": "Braden Kowitz",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "js-yaml": "^3.13.1",
     "moment": "^2.24.0",
     "promise-throttle": "^1.0.1"
